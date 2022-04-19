@@ -1,0 +1,149 @@
+@import url('projets.css');
+@import url('formations.css');
+@import url('competences.css');
+@import url('footer.css');
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+body{
+	font-family: Nunito, sans-serif;
+	font-size: 15px;
+	list-style: 1;
+	letter-spacing: 0.3px;
+	font-weight: 100;
+	margin: auto;
+}
+p{
+	text-align: justify
+}
+h3{
+	color: #3A21B2;
+}
+
+.top{
+	background-image: url(fleur.jpg);
+	background-attachment: fixed;
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Onglets{
+	text-align: right;
+	list-style: none;
+	font-weight: bold;
+	margin-bottom: 165px;
+}
+
+.onglet_accueil:hover
+{
+text-decoration: underline;
+color: #224061;
+}
+.onglet_moi:hover
+{
+text-decoration: underline;
+color: #224061;
+}
+.onglet_formation:hover
+{
+text-decoration: underline;
+color: #224061;
+}
+.onglet_competences:hover
+{
+text-decoration: underline;
+color: #224061;
+}
+.onglet_experience:hover
+{
+text-decoration: underline;
+color: #224061;
+}
+.onglet_projets:hover
+{
+text-decoration: underline;
+color: #224061;
+}
+
+.Onglets li{
+	display: inline;
+	width: 500px;
+	margin: 1em;
+}
+
+div{
+	padding: 5px;
+}
+
+h1 {
+	font-weight: 900;
+    text-transform: uppercase;
+}
+
+.image-projet{
+	box-shadow: 5px 5px 18px black;
+	width: 150px;
+	height: 100px;
+	object-fit: cover;
+}
+.image-comp{
+	width: 100px;
+	height: 50px;
+	object-fit: contain;
+}
+
+.reseaux{
+	list-style: none;
+	padding: 0;
+}
+.reseaux li{
+	display: inline;
+	margin: 5px;
+	padding right: 15px;
+}
+.reseaux a{
+	font-size: 20px;
+	color: rgba(0,0,0,0.3);
+}
+.reseaux a:hover{
+	color: black;
+}
+
+
+.container_a-propos{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.container_formations{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.container_competences{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.container_experiences{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.container_projets{
+	width: 65%;
+	margin: 0 auto;
+}
+
+
+

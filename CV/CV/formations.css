@@ -1,0 +1,17 @@
+.formation{
+	background-color: white;
+	padding: 24px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 6px 3px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.formations{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.formation img{
+	object-fit: cover;
+}
